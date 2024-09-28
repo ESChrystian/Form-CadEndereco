@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: Poppins;
+    padding: 0;
+    border: 0;
+
+}
+
+body {
+    height: 100vh;
+    background-image: url(../pexels-mtyutina-249581.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background-color: ;
+    color: #000;
+    overflow: hidden;
+}
+
+.view{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left {
+    width: 50%;
+    height: 100%;
+    place-content: center;
+    text-align: center
+}
+.left i{
+    font-size: 200px;
+}
+.right {
+    display: flex;
+    place-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+   
+}
+form {
+    height: 50%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #000000;
+
+}
+
+
+.FormCep input {
+  
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    color: #09090b;
+}
+
+.FormCep label {
+    display: flex;
+    flex-direction: column;
+}
+
+.FormCep input::placeholder {
+    color: #000000;
+}
+
+/* COLUNAS DENTRO DO FORM */
+.titlecep {
+    display: flex;
+    background-color: #6d28d9;
+    color: #fafafa;
+}
+
+.titlecep label {
+    margin: 10px;
+}
+
+
+
+.column-1 {
+    display: flex;
+    height: 50%;
+    margin: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+/* CAMPOS DO FORM */
+
+.FormCep .enviar {
+    background-color: #6d28d9;
+    color: #fafafa;
+    flex: 100%;
+    width: 100px;
+    margin-top: 5%;
+}
+.enviar i {
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+#cep {
+
+    width: 10rem;
+
+}
+#logradouro {
+
+    width: 10rem;
+}
+#bairro {
+    width: 10rem;
+}
+#complemento {
+    width: 10rem;
+
+}
+#number {
+    width: 10rem;
+}
+#uf {
+    width: 10rem;
+}
+
+#localidade {
+    width: 10rem;
+}
+@media (max-width:436px){
+    
+}
+
+
+/* TELAS MÉDIAS AFETADAS, PARA ATINGIR A RESPONSIVIDADE */
+@media (max-width:999px) {
+    body {
+        height: 100vh;
+        align-items: center;
+        place-content: center;
+        overflow:unset;
+    }
+    .view {
+        justify-content:flex-start;
+        flex-direction: column;
+    
+    }
+    .left {
+        display:flex;
+        background-color:#fafafa;
+        width: 100%;
+        height: 15%;
+        align-items: center;
+        
+    }
+    .left i{
+        font-size: 100px;
+
+    }
+    .right {
+        margin-top: 50px;
+        display:flex;
+        background-color:#fafa;
+        width: 55vh;
+        height: 50vh;
+    
+    }
+
+    form {
+        height: 100%;
+        width: 100%;
+       
+    }
+
+    .titlecep {
+        place-content: center;
+        background-color:unset;
+    }
+
+    .column-1 {
+        width: 100%;
+        margin: unset;
+        justify-content: space-around;
+    
+    }
+    
+    #number {
+        width: 10rem;
+    }
+    #localidade {
+        width: 10rem;
+    }
+}
+
+
+@media (max-width:436px) {
+  
+    .left {
+        display:flex;
+        background-color:#fafafa;
+        width: 100%;
+        height: 25%;
+        align-items: center;
+        
+    }
+    .left i{
+        font-size: 100px;
+
+    }
+    .right {
+        display:flex;
+        background-color:#fafa;
+        width: 100%;
+        height: 45%;
+    
+    }
+}
