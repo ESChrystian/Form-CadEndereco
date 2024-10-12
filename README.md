@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-### Endereço Cep - Desenvolvimento Web
-=======
-### Endereço Cep - Desensivolvimento Web
->>>>>>> 7d0b8ba71dfb16754eeac95a37c15453a6e9a41f
-
 #### **Documentação e Desenvolvimento:**
 \- [Chrystian de Almeida](https://github.com/ESChrystian);
 
